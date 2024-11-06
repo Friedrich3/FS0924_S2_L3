@@ -100,6 +100,7 @@ const starWarsCharacters = [
     gender: "male",
   },
 ];
+console.log(starWarsCharacters);
 /* ESERCIZIO 1
   Crea una variabile chiamata "charactersNames" e assegnale un array vuoto
 */
@@ -244,4 +245,12 @@ console.log(charactersNames);
 */
 console.log("ESERCIZIO 10");
 let numeroRandom = Math.floor(Math.random() * starWarsCharacters.length);
-console.log(starWarsCharacters[numeroRandom])
+console.log("Il nome del personaggio è: " + starWarsCharacters[numeroRandom].name + 
+  " è nato nell'anno: "  + starWarsCharacters[numeroRandom].birth_year + 
+  " ,il suo sesso è : "+ starWarsCharacters[numeroRandom].gender + 
+  " il suo colore della pelle è: "+ starWarsCharacters[numeroRandom].skin_color +
+   " Ha gli occhi " + starWarsCharacters[numeroRandom].eye_color +
+    " e i capelli " + starWarsCharacters[numeroRandom].hair_color +
+    " una volta salito sull'astronave ha dovuto fare un check. Il suo peso è risultato di kg:" + starWarsCharacters[numeroRandom].mass + ", " +
+    " e la sua altezza di cm:"+ starWarsCharacters[numeroRandom].height
+  )
